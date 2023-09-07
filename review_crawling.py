@@ -26,7 +26,7 @@ driver.get(url)
 login_page_bth = driver.find_element(By.XPATH,'/html/body/div[1]/div[1]/header/div[2]/div/a[1]/span')
 login_page_bth.click()
 
-#로그인
+#로그인 (이 계정으로해야 리뷰 보임.)
 user_id = "kyjjhh1@g.skku.edu"
 user_pw = "42524252comm!"
 
@@ -47,29 +47,28 @@ adv = [] #장점
 dadv = [] #단점
 
 f = open('C:/Users/Jeonghwan Cho/Desktop/it_web_communication_company_url.txt', 'r')  #텍스트 파일 이름 알아서 바꿔서 넣기.
-data = f.read().splitlines()
+data = f.read().splitlines() #url 리스트 정리
 
 for url_m in data:
     url_m = url_m.replace('info', 'reviews')
-    for i in range(1,2000):
+    for i in range(1,2000): #페이지
         try:
             time.sleep(5)
             url = url_m + f'page={i}'
             driver.get(url)
             html = driver.page_source
             soup = BeautifulSoup(html, 'lxml')
-            company = soup.find('h1', 'name').text
+            company = soup.find('h1', 'name').text #기업 이름
 
             rate_list = soup.find_all('dd', 'df1')
-
-
             for rev in rate_list:
                 review_list.append(rev)
 
             for i in range(len(rate_list)//3):
                 adv.append(review_list[3*i].text)
                 dadv.append(review_list[3*i + 1].text)
-        except:
+                
+        except: #페이지 존재 안할 때 예외처리
             pass
 
 
