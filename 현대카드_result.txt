@@ -1,0 +1,35 @@
+Company name: 현대카드
+
+Topic Modeling Result: 
+
+adv_topic_0: 0.6822144970627604
+adv_topic_1: 0.0
+adv_topic_2: 0.010138914891151391
+adv_topic_3: 0.0
+adv_topic_4: 0.0
+adv_topic_5: 0.0
+dadv_topic_0: 0.0
+dadv_topic_1: 0.07110243536912547
+dadv_topic_2: 0.0
+dadv_topic_3: 0.0134509494617325
+dadv_topic_4: 0.0
+dadv_topic_5: 0.6484060009802686
+dadv_topic_6: 0.0
+
+ML: 
+
+Predicted turnover rate of the company using lgbm model is :[0.19127434]
+Predicted turnover rate of the company using xgb model is :[0.18830982]
+
+Featue Comparison: 
+
+For topic: 직업 안정성+휴식 (장점)
+The topic modeling value is greater than mean and 75% of the data
+For topic: 여가 지원 (장점)
+The topic modeling value is greater than 50% of the data
+For topic: 정규직으로의 전환 (단점)
+The topic modeling value is greater than 50% of the data
+For topic: 근무지 불만 (단점)
+The topic modeling value is greater than 50% of the data
+For topic: 고객 응대 + 성과에 대한 압박 (단점)
+The topic modeling value is greater than mean and 75% of the data
