@@ -7,7 +7,7 @@ Review data, turnover rate, and financial statement data for each company are re
 However, these models also have limitations. There was an imbalance in words due to differences in the number of reviews by company, and the number of data was small due to differences in data held by each site.
 <br>
 
-## a utilization plan 
+## Utilization plans 
 ### In job seekers
 1. Job seekers can check the number of topics of the company he or she chooses as a percentage.<br>
 2. Job seekers can select a topic and search for companies with high satisfaction for the topic in order.
