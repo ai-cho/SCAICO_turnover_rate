@@ -11,7 +11,6 @@ However, these models also have limitations. There was an imbalance in words due
 ### In job seekers
 1. Job seekers can check the number of topics of the company he or she chooses as a percentage.<br>
 2. Job seekers can select a topic and search for companies with high satisfaction for the topic in order.
-<br>
 ### In corporate managers
 1. This program provides business managers with a plan for the supply of their workforce and provides services to use in the decision-making process of how they operate. <br>
 2. The program helps companies change their direction to help them grow by comparing them to competitors with similar financial indicators. <br>
