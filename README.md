@@ -38,8 +38,11 @@ Job seekers can select the topic they want the most and then get the companies i
 <br>
 ![check](https://github.com/Sue-HyeongLee/SCAICO_turnover_rate/assets/142400569/0c4af67a-03ae-4ad6-8390-6f8eb54db01c)
 #### In corporate managers
-
-
+If you put the company's review data and financial indicators into the model, you can see the turnover rate and the percentage of each topic.
+![corporate](https://github.com/Sue-HyeongLee/SCAICO_turnover_rate/assets/142400569/3778136e-c5f4-4e41-9b45-8c8f1f17a956)
+## Verify that topic modeling is valid
+We used Amore Pacific's actual case to confirm that each topic modeling figure was valid.
+![verify](https://github.com/Sue-HyeongLee/SCAICO_turnover_rate/assets/142400569/97221a0f-c553-44c3-b8dc-2fe87046bfc0)
 
 ## Note
 Code and models are only available for non-commercial research purposes.<br>
