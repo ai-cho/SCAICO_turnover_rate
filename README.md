@@ -16,6 +16,12 @@ However, these models also have limitations. There was an imbalance in words due
 2. The program helps companies change their direction to help them grow by comparing them to competitors with similar financial indicators. <br>
 3. The company can reduce the cost of personnel and employee training.<br>
 ## Data analysis in topic modeling
+### Topic modeling in advantages
+1. Compared to previous papers, leisure support can be seen as a new topic, and it can be seen that supporting the leisure life of office workers is an important factor.<br>
+2. The autonomous working environment in the paper was considered an autonomous working environment in which vacations could be used without caring about other people's eyes, regarding annual leave, vacation, and awareness. The words of the autonomous working environment in 2023 show that companies that allow telecommuting with words such as **"재택 근무"**, **"재택"** are considered autonomous working environments.
+### Topic modeling in disadvantages
+1. Compared to our topic, first of all, the difficulty of converting to a full-time employee is a new topic.<br>
+2. Pressure on customer response and performance is also a new topic <br>
 
 ## Branches
 The code to extract review text data, turnover rate data, and financial statement data is in the **crawling**.<br>
@@ -26,11 +32,9 @@ You can predict the turnover rate by directly inputting review data through **th
 
 ## How to use
 ### The way to use turnover_calculator
-1. Input a csv file containing company_name, adv, dadv, average_salary, and total_sale values.
+#### In job seekers
+Job seekers can select the topic they want the most and then get the companies in order, starting with the highest number of topics they choose. After that, you can choose a company by considering other topics.<br>
 
-2. Compare the turnover rate predictions and actual values ​​for each model, and compare the topic modeling values ​​for each topic.
-   
-![how_to_use](https://github.com/Sue-HyeongLee/SCAICO_turnover_rate/assets/120773889/1980bde2-ac9d-415f-9ea2-9b8482d55f60)
 
 ## Note
 Code and models are only available for non-commercial research purposes.<br>
