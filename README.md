@@ -34,6 +34,11 @@ You can predict the turnover rate by directly inputting review data through **th
 ### The way to use turnover_calculator
 #### In job seekers
 Job seekers can select the topic they want the most and then get the companies in order, starting with the highest number of topics they choose. After that, you can choose a company by considering other topics.<br>
+![sort](https://github.com/Sue-HyeongLee/SCAICO_turnover_rate/assets/142400569/2522d32a-4dcb-4b4a-907f-b3b578b4ee08)
+<br>
+![check](https://github.com/Sue-HyeongLee/SCAICO_turnover_rate/assets/142400569/0c4af67a-03ae-4ad6-8390-6f8eb54db01c)
+#### In corporate managers
+
 
 
 ## Note
