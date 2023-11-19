@@ -2,17 +2,28 @@
 This is an archive for the 2023 SCAICO contest.
 
 ## Abstract
-Review data, turnover rate, and financial statement data for each company are retrieved from **[JobPlanet](https://www.jobplanet.co.kr/job)** and **[Wanted Insight](https://insight.wanted.co.kr/)**. After combining these, we created a machine learning model that predicts turnover rate using **TF-IDF** and **topic modeling**. Through comparison of **MSE, RMSE, and MAE** values ​​for each model, it was concluded that the turnover rate prediction model using **TF-IDF shows the highest performance in Ridge and RF**. And the turnover rate prediction model using **topic modeling showes the highest performance in XGB and LGBM**.<br>
+Review data, turnover rate, and financial statement data for each company are retrieved from **[JobPlanet](https://www.jobplanet.co.kr/job)** and **[Wanted Insight](https://insight.wanted.co.kr/)**. After combining these, we created a machine learning model that predicts turnover rate using **topic modeling**. Through comparison of **MSE, RMSE, and MAE** values ​​for each model, it was concluded that turnover rate prediction model using **topic modeling showes the highest performance in XGB and LGBM**.<br>
 <br>
-The turnover rate prediction models obtained in this way can help corporate managers establish new personnel strategies, and help job seekers apply to companies that are right for them.
 However, these models also have limitations. There was an imbalance in words due to differences in the number of reviews by company, and the number of data was small due to differences in data held by each site.
+<br>
+
+## a utilization plan 
+# In job seekers
+1. Job seekers can check the number of topics of the company he or she chooses as a percentage.<br>
+2. Job seekers can select a topic and search for companies with high satisfaction for the topic in order.
+<br>
+# In corporate managers
+1. This program provides business managers with a plan for the supply of their workforce and provides services to use in the decision-making process of how they operate. <br>
+2. The program helps companies change their direction to help them grow by comparing them to competitors with similar financial indicators. <br>
+3. The company can reduce the cost of personnel and employee training.<br>
+## Data analysis in topic modeling
 
 ## Branches
-The code to extract review text data, turnover rate data, and financial statement data is in the **crawling**<br>
-Code and files related to topic modeling are in the **tm**<br>
-The code and files that ultimately create the machine learning model with these data are in the **ml**<br>
-Finally, each content is neatly organized and stored in the **main**<br>
-You can predict the turnover rate by directly inputting review data through **the turnover_calculator in the main**<br>
+The code to extract review text data, turnover rate data, and financial statement data is in the **crawling**.<br>
+Code and files related to topic modeling are in the **tm**.<br>
+The code and files that ultimately create the machine learning model with these data are in the **ml**.<br>
+Finally, each content is neatly organized and stored in the **main**.<br>
+You can predict the turnover rate by directly inputting review data through **the turnover_calculator in the main**.<br>
 
 ## How to use
 ### The way to use turnover_calculator
