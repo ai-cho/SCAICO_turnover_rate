@@ -47,6 +47,11 @@ If you put the company's review data and financial indicators into the model, yo
 We used Amore Pacific's actual case to confirm that each topic modeling figure was valid.
 <br>
 ![verify](https://github.com/Sue-HyeongLee/SCAICO_turnover_rate/assets/142400569/97221a0f-c553-44c3-b8dc-2fe87046bfc0)
+<br>
+## Suggestion for follow-up studies
+1. Using topic modeling, I would like to propose a study on a recommendation system that analyzes the shortcomings of previous companies and recommends companies that compensate for shortcomings in similar occupations.<br>
+2. I would like to propose a study to understand the company's strategy to reflect the findings found in the current study and to determine the growth of the companies that implemented this strategy 5 to 10 years later.<br>
+3. I think it would be good to conduct a follow-up study in business administration and statistics that suggests fundamental solutions to keywords such as **“소통, 보수, 꼰대, 복지”** that often appear in topics.
 
 ## Note
 Code and models are only available for non-commercial research purposes.<br>
