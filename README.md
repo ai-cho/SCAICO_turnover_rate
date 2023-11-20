@@ -2,26 +2,28 @@
 This is an archive for the 2023 SCAICO contest.
 
 ## Abstract
-Review data, turnover rate, and financial statement data for each company are retrieved from **[JobPlanet](https://www.jobplanet.co.kr/job)** and **[Wanted Insight](https://insight.wanted.co.kr/)**. After combining these, we created a machine learning model that predicts turnover rate using **topic modeling**. Through comparison of **MSE, RMSE, and MAE** values ​​for each model, it was concluded that turnover rate prediction model using **topic modeling showes the highest performance in XGB and LGBM**.<br>
+Review data, turnover rate, and financial statement data for each company are retrieved from **[JobPlanet](https://www.jobplanet.co.kr/job)** and **[Wanted Insight](https://insight.wanted.co.kr/)**. After merging these data, we analyzed it through LDA topic modeling and grouped up company characteristics into 6 advantage topics and 7 disadvatange topics. Then, we created a machine learning model that predicts turnover rate using **topic modeling**. Through comparison of **MSE, RMSE, and MAE** values ​​for each model, it was concluded that turnover rate prediction model using **topic modeling showes the highest performance in XGB and LGBM**.<br>
 <br>
 However, these models also have limitations. There was an imbalance in words due to differences in the number of reviews by company, and the number of data was small due to differences in data held by each site.
 <br>
 
 ## Utilization plans 
-### In job seekers
+We view that our findings can be utilized by...
+### 1. job seekers
 1. Job seekers can check the number of topics of the company he or she chooses as a percentage.<br>
 2. Job seekers can select a topic and search for companies with high satisfaction for the topic in order.
-### In corporate managers
-1. This program provides business managers with a plan for the supply of their workforce and provides services to use in the decision-making process of how they operate. <br>
-2. The program helps companies change their direction to help them grow by comparing them to competitors with similar financial indicators. <br>
-3. The company can reduce the cost of personnel and employee training.<br>
+### 2. corporate managers
+1. This project can guide business managers to set a plan for the supply of their workforce and provide services to use in the decision-making process of how they manage their firm. <br>
+2. The project is expected to change firms' management strategy and aid them to enhance their performance by comparing their characteristics to that of their competitors with similar financial indicators. <br>
+3. Implementing our project is expected to reduce the cost of HR and employee training.<br>
+
 ## Data analysis in topic modeling
 ### Topic modeling in advantages
-1. Compared to previous papers, leisure support can be seen as a new topic, and it can be seen that supporting the leisure life of office workers is an important factor.<br>
-2. The autonomous working environment in the paper was considered an autonomous working environment in which vacations could be used without caring about other people's eyes, regarding annual leave, vacation, and awareness. The words of the autonomous working environment in 2023 show that companies that allow telecommuting with words such as **"재택 근무"**, **"재택"** are considered autonomous working environments.
+1. Compared to precedent papers, in 2023, leisure support is a rizing topic among workforces. Supporting the leisure life of office workers is an important factor, and it is backed up by the survey done by Jobplanet.<br>
+2. The autonomous working environment in precedent paper was considered as working environment that work forces can use their vacations without caring about other people's eyes. However, autonomous working environment in 2023 is comprised of words like **"재택 근무"**, **"재택"** , which are allows their employees to telecommute.
 ### Topic modeling in disadvantages
-1. Compared to our topic, first of all, the difficulty of converting to a full-time employee is a new topic.<br>
-2. Pressure on customer response and performance is also a new topic <br>
+1. Compared to precedent paper, the difficulty of converting to permanent employee is a rizing topic. It has been supported by the rize of the wage gap between permanent employee and temporary employee. <br>
+2. Pressure on customer response and performance is also a new topic. <br>
 
 ## Branches
 The code to extract review text data, turnover rate data, and financial statement data is in the **crawling**.<br>
