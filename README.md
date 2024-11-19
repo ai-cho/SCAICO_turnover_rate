@@ -1,5 +1,6 @@
-## SCAICO_turnover_rate
-This is an archive for the 2023 SCAICO contest. It's a competition hosted by SK Telecom. The judges said that we used a simple model, but we analyzed the data well in terms of data science and created the program that the actual company(Wanted Insight, Job Planet) wanted.
+## SCAICO_turnover_rate 
+This is an archive for the 2023 SCAICO <sub> (Seoul Central AI Competition) </sub> contest. It's a competition hosted by SK Telecom. The judges said that we used a simple model, but we analyzed the data well in terms of data science and created the program that the actual company(Wanted Insight, Job Planet) wanted.
+<sub> SCAICO(Seoul Central AI Competition) </sub>
 
 ## Abstract
 Review data, turnover rate, and financial statement data for each company are retrieved from **[JobPlanet](https://www.jobplanet.co.kr/job)** and **[Wanted Insight](https://insight.wanted.co.kr/)**. After merging these data, we analyzed it through LDA topic modeling and grouped up company characteristics into 6 advantage topics and 7 disadvatange topics. Then, we created a machine learning model that predicts turnover rate using **topic modeling**. Through comparison of **MSE, RMSE, and MAE** values ​​for each model, it was concluded that turnover rate prediction model using **topic modeling showes the highest performance in XGB and LGBM**.<br>
